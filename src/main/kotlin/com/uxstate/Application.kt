@@ -26,6 +26,8 @@ fun Application.module() {
          get("/muchiri") {
              call.respondText("Hello T-Muchiri")
          }
-
+         get("/mu") {
+             call.respondText("Hello Muraguri")
+         }
      }
 }
